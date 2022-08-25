@@ -1,0 +1,92 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+.flixeble-conatiner {
+    display: flex;
+
+}
+
+.first-section {
+    padding-left: 5%;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.first-section-half h1 {
+    color: black;
+    font-size: 50px;
+}
+
+.first-section-half p {
+    color: rgb(139, 151, 151);
+}
+
+.first-section-half a {
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: #fff;
+    background-image: linear-gradient(yellow, black);
+}
+
+.first-section-half {
+    width: 50%;
+
+}
+
+.first-titale-color {
+    color: rgb(240, 186, 8);
+}
+
+.first-section-half img {
+    width: 100%;
+}
+
+.second-section {
+    margin: 100px 0;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.thard-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 5%;
+    margin: 100px 0;
+}
+
+.thard-section h1 {
+    font-size: 40px;
+    color: black;
+}
+
+.shadow-exp {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    border-radius: 5px;
+    padding: 15px 25px;
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+#web-dev {
+    border-left: 5px solid;
+    border-image: linear-gradient(yellow, black);
+    border-image-slice: 1;
+
+}
+
+#dev-web {
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(243, 177, 12), rgb(20, 46, 217));
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    color: black;
+}
